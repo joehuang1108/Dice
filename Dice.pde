@@ -19,8 +19,10 @@ void draw()
     }
   }
   fill(0,0,255);
-  textSize(70);
-  text(DiceCount,240,200);
+  textSize(68);
+  text(DiceCount,240,510);
+  textSize(30);
+  text("Try to get 252! ", 10,510);
 }
 void mousePressed()
 {
